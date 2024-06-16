@@ -1,0 +1,91 @@
+﻿/* Resetando as config. padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+
+    /* Definindo a Fonte de Texto do Projeto*/
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Definindo "variaveis" de cor para o nosso projeto*/
+:root {
+    --purple-200: #9a7bd1;
+    --purple-500: #6b36c8;
+    --purple-800: #441f88;
+
+    --black-800: #171717;
+
+    --gray-200: #cccccc;
+    --gray-400: #505861;
+
+    --white: #F9F9F9;
+}
+
+html {
+    /* Definindo a largura padrão da tela */
+    width: 100%;
+    
+    /* Definindo a altura padrão da tela */
+    height: 100vh;
+
+    /* Scroll suave */
+    scroll-behavior: smooth;
+
+    /* Personalizar a Scrollbar - Firefox */
+    scrollbar-color: var(--purple-500) var(--gray-200);
+    scrollbar-width: thin;
+}
+
+body {
+    background: var(--gray-200);
+    color: var(--black-800);
+
+    /* Suavização das fontes - Chrome*/
+    -webkit-font-smoothing: antialiased;
+
+    /* Suavização das fontes - Firefox*/
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+/* Personalizar a Scrollbar - Chrome e Edge */
+body::-webkit-scrollbar {
+    /* largura da Scrollbar */
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    /* cor do plano de fundo da Scrollbar */
+    background: var(--gray-200);
+}
+
+body::-webkit-scrollbar-thumb {
+    /* cor do scroll */
+    background-color: var(--purple-500);
+
+    /* borda do scroll */
+    border-radius: 20px;
+}
+
+/* Classe Padrão para todos os Botões */
+.btn {
+    text-align: center;
+    padding: 12px 32px;
+    background: none;
+    border: 1px solid var(--purple-500);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background: var(--purple-500);
+}
