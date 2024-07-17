@@ -35,9 +35,6 @@ html {
     /* Scroll suave */
     scroll-behavior: smooth;
 
-    /* Personalizar a Scrollbar - Firefox */
-    scrollbar-color: var(--purple-500) var(--gray-200);
-    scrollbar-width: thin;
 }
 
 body {
@@ -56,36 +53,18 @@ a {
     cursor: pointer;
 }
 
-/* Personalizar a Scrollbar - Chrome e Edge */
-body::-webkit-scrollbar {
-    /* largura da Scrollbar */
-    width: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-    /* cor do plano de fundo da Scrollbar */
-    background: var(--gray-200);
-}
-
-body::-webkit-scrollbar-thumb {
-    /* cor do scroll */
-    background-color: var(--purple-500);
-
-    /* borda do scroll */
-    border-radius: 20px;
-}
-
 /* Classe Padrão para todos os Botões */
 .btn {
     text-align: center;
     padding: 12px 32px;
     background: none;
-    border: 1px solid var(--purple-500);
-    color: var(--white);
+    border: 1px solid var(--purple-800);
+    color: var(--purple-800);
     border-radius: 10px;
     font-weight: 700;
 }
 
 .btn:hover {
-    background: var(--purple-500);
+    background: var(--purple-800);
+    color: var(--white);
 }
