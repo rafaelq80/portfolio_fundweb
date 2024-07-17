@@ -54,7 +54,7 @@ a {
 }
 
 /* Classe Padrão para todos os Botões */
-.btn {
+.botao {
     text-align: center;
     padding: 12px 32px;
     background: none;
@@ -64,7 +64,7 @@ a {
     font-weight: 700;
 }
 
-.btn:hover {
+.botao:hover {
     background: var(--purple-800);
     color: var(--white);
 }
