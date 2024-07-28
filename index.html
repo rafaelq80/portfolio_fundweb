@@ -25,10 +25,10 @@
 
 <body>
     <!-- Cabeçalho da Página (header) -->
-    <header>
+    <header class="flex menu_container">
 
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="menu_content">
 
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
@@ -39,12 +39,12 @@
             </div>
 
             <!-- Conteudo do Menu da Página (header) -->
-            <div id="menu">
+            <div id="menu" class="flex">
 
                 <!-- Menu da Página (nav) -->
                 <nav>
                     <!-- Marcadores não ordenados -->
-                    <ul>
+                    <ul class="flex menu_lista">
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#contact">Contate-me</a></li>
@@ -60,10 +60,10 @@
     <main>
 
         <!-- Seção Home -->
-        <section id="home">
+        <section id="home" class="home_container">
 
             <!-- Texto da Seção Home -->
-            <article id="home_texto">
+            <article id="home_texto" class="home_content">
 
                 <h4>Bem-vindo ao Novo Universo</h4>
                 <h1>Mundos diferentes para pessoas diferentes</h1>
@@ -72,24 +72,33 @@
                     Quod error veniam in voluptatem magni quisquam
                 </p>
 
-                <a target="_blank" href="https://github.com/conteudoGeneration" alt="Github da Generation Brasil">
+                <a 
+                    class="botao"
+                    target="_blank" 
+                    href="https://github.com/conteudoGeneration" 
+                    alt="Github da Generation Brasil" 
+                >
                     Explorar
                 </a>
 
             </article>
 
             <!-- Imagem da Seção Home -->
-            <article id="home_imagem">
-                <img src="./assets/img/astronauta.svg" alt="Capacete de Astronauta Animado" width="450">
+            <article id="home_imagem" class="home_content">
+                <img 
+                    class="home_content_img" 
+                    src="./assets/img/astronauta.svg" 
+                    alt="Capacete de Astronauta Animado"  
+                >
             </article>
 
         </section>
 
-        <!-- Seção Sobre você -->
-        <section id="about">
+        <!-- Seção About -->
+        <section id="about" class="sobre_container">
 
             <!-- Foto do Perfil do Github -->
-            <img src="assets/img/user_01.svg" alt="Foto do Perfil do Github" width="450px">
+            <img src="assets/img/user_01.svg" alt="Foto do Perfil do Github">
 
             <!-- Texto Sobre você -->
             <article id="sobre_texto">
@@ -104,9 +113,9 @@
                 </p>
 
                 <!-- Informações do Github -->
-                <div id="sobre_github">
+                <div id="sobre_github" class="flex sobre_github">
 
-                    <a target="_blank" href="https://github.com/conteudoGeneration">Github</a>
+                    <a class="botao" target="_blank" href="https://github.com/conteudoGeneration">Github</a>
                     <p>200 Seguidores</p>
                     <p>100 Repositórios</p>
 
@@ -116,25 +125,25 @@
 
         </section>
 
-        <!-- Seção Formulário de Contato e Redes Sociais -->
-        <section id="contact">
+        <!-- Seção Contact -->
+        <section id="contact" class="contato_container">
 
             <!-- Seção de Contato - Redes Sociais-->
-            <article id="redes_sociais">
+            <article id="redes_sociais" class="contato_content">
 
                 <h4>Contate-me</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quod error veniam in voluptatem magni quisquam</p>
 
-                <div id="icones_redes_sociais">
+                <div id="icones_redes_sociais" class="flex social_container">
                     <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                        <img class="social_icon" src="assets/img/linkedin.svg" alt="LinkedIn" />
                     </a>
                     <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
+                        <img class="social_icon" src="assets/img/github.svg" alt="Github" />
                     </a>
                     <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
+                        <img class="social_icon" src="assets/img/instagram.svg" alt="Instagram" />
                     </a>
                 </div>
 
@@ -167,7 +176,7 @@
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         Feito com 🧡 por Generation Brasil - 2024
     </footer>
 
