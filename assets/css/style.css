@@ -99,6 +99,14 @@ a {
     margin: 0 0 0 16px;
 }
 
+#menu_content_sucess {
+    max-width: 1120px;
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /* ESTILIZAÇÃO DA SEÇÃO HOME */
 .home_container {
     max-width: 1120px;
@@ -279,4 +287,5 @@ footer {
     background-color: var(--purple-500);
     filter: opacity(0.9);
     font-weight: bold;
+    text-align: center;
 }
