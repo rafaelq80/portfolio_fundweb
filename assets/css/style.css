@@ -242,7 +242,7 @@ h4 {
 }
 
 /* ESTILIZAÇÃO DA SEÇÃO FORMULÁRIO */
-/* form {
+form {
     display: flex;
     flex-direction: column;
     width: 480px;
@@ -269,14 +269,14 @@ textarea {
 
 textarea {
     resize: none;
-} */
+}
 
 /* ESTILIZAÇÃO DA SEÇÃO RODAPÉ */
-/* footer {
+footer {
     margin: 0;
     padding: 32px;
     color: var(--white);
     background-color: var(--purple-500);
     filter: opacity(0.9);
     font-weight: bold;
-} */
+}
