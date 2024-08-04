@@ -1,6 +1,6 @@
-﻿let sobre = document.querySelector("#about");
+﻿const sobre = document.querySelector("#about");
 
-const form = document.querySelector('#formulario');
+const formulario = document.querySelector('#formulario');
 
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -39,9 +39,7 @@ async function getApiGithub() {
   }
 }
 
-getApiGithub();
-
-form.addEventListener('submit', function(event) {
+formulario.addEventListener('submit', function(event) {
   
   event.preventDefault();
 
@@ -59,7 +57,7 @@ form.addEventListener('submit', function(event) {
   const campoEmail = document.querySelector('#email');
   const txtEmail = document.querySelector('#txtEmail');
 
-  if (campoEmail.value === '' && !email.value.match(regex)) {
+  if (!campoEmail.value.match(emailRegex)) {
     txtEmail.innerHTML = 'Digite um E-mail válido.';
     campoEmail.focus();
     return;
@@ -78,6 +76,8 @@ form.addEventListener('submit', function(event) {
     txtSubject.innerHTML = '';
   }
 
-  form.submit();
+  formulario.submit();
 
 });
+
+getApiGithub();
