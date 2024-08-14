@@ -7,11 +7,3 @@
 </div>
 
 <br /><br />
-
-## Protótipo
-
-<div align="center">
-    <img src="https://imgur.com/PRnfFTP.png" title="source: imgur.com" /> 
-</div>
-
-<br /><br />
