@@ -13,12 +13,13 @@
     --purple-500: #6b36c8;
     --purple-800: #441f88;
 
-    --black-800: #171717;
-
     --gray-200: #cccccc;
     --gray-400: #505861;
 
+    --black-800: #171717;
+
     --white: #F9F9F9;
+
 }
 
 html {
@@ -64,12 +65,12 @@ a {
 
 .menu_container {
     height: 80px;
-    position: sticky; 
-    top: 0; 
-    width: 100%; 
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: var(--purple-800);
     border-bottom: 1px solid var(--purple-500);
-    filter: opacity(0.9);  
+    filter: opacity(0.9);
 }
 
 .menu_container a {
@@ -110,12 +111,12 @@ a {
 /* ESTILIZAÇÃO DA SEÇÃO HOME */
 .home_container {
     max-width: 1120px;
-    margin: 16px auto; 
-    padding: 0 16px;  
-    height: calc(100vh - 100px);    
+    margin: 16px auto;
+    padding: 0 16px;
+    height: calc(100vh - 100px);
     display: flex;
-    justify-content: center;    
-    align-items: center;        
+    justify-content: center;
+    align-items: center;
 }
 
 .home_container p,
@@ -132,7 +133,7 @@ h4 {
 
 .home_container h1 {
     font-size: 36px;
-    line-height: 48px; 
+    line-height: 48px;
     font-weight: bold;
 }
 
@@ -141,33 +142,33 @@ h4 {
 }
 
 .home_container .botao {
-    width: 40%; 
+    width: 40%;
 }
 
 .home_content {
-    width: 50vw;    
+    width: 50vw;
 
     display: flex;
-    justify-content: center;    
-    align-items: center;       
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .home_content_img {
     display: flex;
-    width: 75%; 
+    width: 75%;
 }
 
 /* ESTILIZAÇÃO DA SEÇÃO SOBRE */
 .sobre_container {
     max-width: 1120px;
-    margin: -24px auto; 
+    margin: -24px auto;
     padding: 0 16px;
     height: 100vh;
 
     display: flex;
-    justify-content: center;    
-    align-items: center;        
+    justify-content: center;
+    align-items: center;
 }
 
 .sobre_container img {
@@ -190,10 +191,10 @@ h4 {
 }
 
 .sobre_github {
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
-#sobre_texto{
+#sobre_texto {
     margin-left: 30px;
 }
 
@@ -203,11 +204,11 @@ h4 {
     margin: 64px auto 32px;
     padding: 0 32px;
 
-    display: grid;              
+    display: grid;
     grid-template-columns: repeat(auto-fill, 518px);
-    justify-content: center;    
-    align-items: center;       
-    gap: 20px;  
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .contato_container h4 {
@@ -219,8 +220,8 @@ h4 {
 .contato_content {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
 
     margin: 64px 0 0 0;
     font-size: 20px;
@@ -231,11 +232,10 @@ h4 {
     text-align: justify;
 }
 
-
 /* ESTILIZAÇÃO DA SEÇÃO REDES SOCIAIS */
 .social_container {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     margin: 32px 0 0 0;
     width: 320px;
 }
@@ -245,8 +245,15 @@ h4 {
     height: 75px;
 }
 
-.social_icon:hover {  
-    filter: brightness(0) saturate(100%) invert(20%) sepia(24%) saturate(4557%) hue-rotate(242deg) brightness(89%) contrast(108%);
+.social_icon:hover {
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(20%) 
+            sepia(24%) 
+            saturate(4557%) 
+            hue-rotate(242deg) 
+            brightness(89%) 
+            contrast(108%);
 }
 
 /* ESTILIZAÇÃO DA SEÇÃO FORMULÁRIO */
@@ -275,16 +282,16 @@ textarea {
     font-size: 16px;
 }
 
-form span{
+textarea {
+    resize: none;
+}
+
+form span {
     margin-bottom: 8px;
     margin-left: 12px;
     font-size: 12px;
     line-height: 16px;
     color: red;
-}
-
-textarea {
-    resize: none;
 }
 
 /* ESTILIZAÇÃO DA SEÇÃO RODAPÉ */
