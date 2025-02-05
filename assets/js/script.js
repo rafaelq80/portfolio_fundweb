@@ -14,7 +14,7 @@ async function getApiGithub() {
           alt="Foto do Perfil do Github - ${perfil.name}">
   
           <article id="sobre-texto"> <!-- Adicione aqui as CLASSES -->
-          <h1>Quem sou eu?</h1>
+          <h2>Quem sou eu?</h2>
           <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odit voluptates incidunt
               inventore rem error harum blanditiis accusamus vitae, minus fugit consequatur? Dolorum maiores magni
